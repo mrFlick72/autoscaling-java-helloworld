@@ -8,13 +8,12 @@
 <div>
     <img th:src="@{/image/profile.jpg}" style="float: left; padding-right: 5px"/>
 
-    Instance Metadata
-
+    <h3>Instance Metadata</h3>
     <ul>
-        <li>amiId: <span th:text="${amiId}"/> </li>
-        <li>region: ${region}</li>
-        <li>instanceId: ${instanceId}</li>
-        <li>privateId: ${privateId}</li>
+        <li>amiId: <span th:text="${amiId}"/></li>
+        <li>region: <span th:text="${region}"/></li>
+        <li>instanceId: <span th:text="${instanceId}"/></li>
+        <li>privateId: <span th:text="${privateId}"/></li>
     </ul>
 </div>
 </body>
