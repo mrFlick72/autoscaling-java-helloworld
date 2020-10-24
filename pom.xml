@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>it.valeriovaudi</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>autoscaling-java-helloworld</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>autoscaling-java-helloworld</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -59,6 +59,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>autoscaling-java-helloworld</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
