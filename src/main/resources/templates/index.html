@@ -6,14 +6,14 @@
 <body>
 
 <div>
-    <img th:src="@{/image/profile.jpg}" style="float: left; padding-right: 5px"/>
+    <img th:src="@{/image/profile.jpg}" style="float: left; padding-right: 5px; margin-right: 10px;"/>
 
-    <h3>Instance Metadata</h3>
+    <h2>Instance Metadata</h2>
     <ul>
-        <li>amiId: <span th:text="${amiId}"/></li>
-        <li>region: <span th:text="${region}"/></li>
-        <li>instanceId: <span th:text="${instanceId}"/></li>
-        <li>privateId: <span th:text="${privateId}"/></li>
+        <li><h3>amiId: <span th:text="${amiId}"/></h3></li>
+        <li><h3>region: <span th:text="${region}"/></h3></li>
+        <li><h3>instanceId: <span th:text="${instanceId}"/></h3></li>
+        <li><h3>privateId: <span th:text="${privateId}"/></h3></li>
     </ul>
 </div>
 </body>
