@@ -23,6 +23,7 @@ class IndexController {
     public void index(Model model){
         model.addAttribute("amiId", EC2MetadataUtils.getAmiId());
         model.addAttribute("region", EC2MetadataUtils.getEC2InstanceRegion());
+        model.addAttribute("zone", EC2MetadataUtils.getAvailabilityZone());
         model.addAttribute("instanceId", EC2MetadataUtils.getInstanceInfo().getInstanceId());
         model.addAttribute("privateId", EC2MetadataUtils.getInstanceInfo().getPrivateIp());
     }
